@@ -1,0 +1,31 @@
+{
+  "name": "coffee-api",
+  "version": "0.0.1",
+  "description": "Simple structure for a coffeescript based REST api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danmconrad/coffee-api.git"
+  },
+  "author": {
+    "name": "Dan Conrad",
+    "email": "dan.m.conrad@gmail.com"
+  },
+  "scripts": {
+    "start": "gulp start"
+  },
+  "dependencies": {
+    "cached": "^3.0.1",
+    "cson": "^1.6.2",
+    "express": "^4.11.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.0",
+    "gulp": "^3.8.10",
+    "gulp-clean": "^0.3.1",
+    "gulp-coffee": "^2.3.1",
+    "gulp-util": "^3.0.2"
+  },
+  "engine": {
+    "node": ">=0.10.32"
+  }
+}
